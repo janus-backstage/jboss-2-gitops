@@ -1,0 +1,21 @@
+app:
+  name: jboss-2
+  namespace: jboss-2-dev
+  cluster: 
+
+git:
+  branch: main
+  repo: https://github.com/janus-backstage/jboss-2.git
+  org: janus-backstage
+  name: jboss-2
+  host: github.com
+  token: ''
+  webhookSecret: ''
+
+
+image:
+  registry: Openshift
+  organization: 
+  host: image-registry.openshift-image-registry.svc:5000
+  name: jboss-2
+  tag: latest
